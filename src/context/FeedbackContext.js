@@ -2,7 +2,7 @@ import { createContext, useState, useEffect } from "react";
 
 const FeedbackContext = createContext()
 
-
+//context
 export const FeedbackProvider = ({children})=> {
 
   const [isLoading, setIsloading] = useState([true])  
